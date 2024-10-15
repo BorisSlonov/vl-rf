@@ -19,14 +19,14 @@ const NewApp = () => {
                             Революционный интуитивно понятный интерфейс с 3D визуализацией
                         </p>
                         <div className={styles.links}>
-                            <Link className={styles.a} href={'#'}>
+                            <p className={styles.a} >
                                 <Image src={'/android.svg'} alt="плейстор" width={25} height={25} />
                                 для Android
-                            </Link>
-                            <Link className={styles.a} href={'#'}>
+                            </p>
+                            <p className={styles.a} >
                                 <Image src={'/ios.svg'} alt="плейстор" width={25} height={25} />
                                 для iOS
-                            </Link>
+                            </p>
                         </div>
                     </div>
                 </div>
