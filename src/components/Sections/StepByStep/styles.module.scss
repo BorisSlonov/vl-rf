@@ -91,6 +91,9 @@
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(75px);
     height: 365px;
+    @media(max-width:767px) {
+        height: auto;
+    }
 }
 
 .p {
@@ -111,4 +114,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
+    @media(max-width:767px) {
+        margin-top: 20px;
+    }
 }
