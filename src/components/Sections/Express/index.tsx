@@ -1,3 +1,4 @@
+import { InViewStyle } from '@/shared/ui/InViewStyle'
 import styles from './styles.module.scss'
 import Image from 'next/image'
 
@@ -9,32 +10,80 @@ const Express = () => {
                 <div className={styles.body}>
                     <div className={styles.item}>
                         <h2 className={styles.h2}>
-                            Система экспресс
-                            вибродиагностики
+                            <InViewStyle
+                                initialClass="leftToRight"
+                                animationClass="visible"
+                                triggerOnce
+                            >
+                                Система экспресс
+                                вибродиагностики
+                            </InViewStyle>
                         </h2>
                         <div className={styles.titleText}>
                             <h3 className={styles.h3}>
-                                Трёхосевые датчики
+                                <InViewStyle
+                                    initialClass="leftToRight"
+                                    animationClass="visible"
+                                    triggerOnce
+                                >
+                                    Трёхосевые датчики
+                                </InViewStyle>
                             </h3>
-                            <p className={styles.p}>
-                                Одновременное измерение в трёх осях
-                            </p>
+                            <div className={styles.p}>
+                                <InViewStyle
+                                    initialClass="leftToRight"
+                                    animationClass="visible"
+                                    triggerOnce
+                                >
+                                    Одновременное измерение в трёх осях
+                                </InViewStyle>
+                            </div>
                             <h3 className={styles.h3}>
-                                Беспроводная система
+                                <InViewStyle
+                                    initialClass="leftToRight"
+                                    animationClass="visible"
+                                    triggerOnce
+                                >
+                                    Беспроводная система
+                                </InViewStyle>
                             </h3>
-                            <p className={styles.p}>
-                                Связь с устройством — Bluetooth 4.0
-                            </p>
+                            <div className={styles.p}>
+                                <InViewStyle
+                                    initialClass="leftToRight"
+                                    animationClass="visible"
+                                    triggerOnce
+                                >
+                                    Связь с устройством — Bluetooth 4.0
+                                </InViewStyle>
+                            </div>
                             <h3 className={styles.h3}>
-                                Вариативность решений
+                                <InViewStyle
+                                    initialClass="leftToRight"
+                                    animationClass="visible"
+                                    triggerOnce
+                                >
+                                    Вариативность решений
+                                </InViewStyle>
                             </h3>
-                            <p className={styles.p}>
-                                Подходят для задач любой сложности
-                            </p>
+                            <div className={styles.p}>
+                                <InViewStyle
+                                    initialClass="leftToRight"
+                                    animationClass="visible"
+                                    triggerOnce
+                                >
+                                    Подходят для задач любой сложности
+                                </InViewStyle>
+                            </div>
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <Image className={styles.img} src={'/geoExpress.png'} width={560} height={715} alt='Система экспресс вибродиагностики' />
+                        <InViewStyle
+                            initialClass="rightToLeft"
+                            animationClass="visible"
+                            triggerOnce
+                        >
+                            <Image className={styles.img} src={'/geoExpress.png'} width={560} height={715} alt='Система экспресс вибродиагностики' />
+                        </InViewStyle>
                     </div>
                 </div>
             </div>

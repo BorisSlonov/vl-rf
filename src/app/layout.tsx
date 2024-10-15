@@ -8,11 +8,11 @@ import { Jost } from 'next/font/google'
 const jost = Jost({ subsets: ['latin', 'cyrillic'] })
 
 export const metadata: Metadata = {
-  title: "Учебный центр Vibro-Laser",
-  description: "Учебный центр Vibro-Laser",
+  title: "КСК-СИСТЕМС",
+  description: "КСК-СИСТЕМС",
   openGraph: {
-    title: "Учебный центр Vibro-Laser",
-    description: "Учебный центр Vibro-Laser",
+    title: "КСК-СИСТЕМС",
+    description: "КСК-СИСТЕМС",
   },
 };
 

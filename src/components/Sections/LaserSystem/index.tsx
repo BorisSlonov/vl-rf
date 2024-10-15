@@ -1,3 +1,4 @@
+import { InViewStyle } from '@/shared/ui/InViewStyle'
 import styles from './styles.module.scss'
 import Image from 'next/image'
 
@@ -9,28 +10,65 @@ const LaserSystem = () => {
                 <div className={styles.body}>
                     <div className={styles.item}>
                         <h2 className={styles.h2}>
-                            ЛАЗЕРНАЯ СИСТЕМА ЦЕНТРОВКИ
+                            <InViewStyle
+                                initialClass="leftToRight"
+                                animationClass="visible"
+                                triggerOnce
+                            >
+                                ЛАЗЕРНАЯ СИСТЕМА ЦЕНТРОВКИ
+                            </InViewStyle>
                         </h2>
                         <div className={styles.titleText}>
                             <h3 className={styles.h3}>
-                                Преимущества
+                                <InViewStyle
+                                    initialClass="leftToRight"
+                                    animationClass="visible"
+                                    triggerOnce
+                                >
+                                    Преимущества
+                                </InViewStyle>
                             </h3>
+
                             <ul className={styles.ul}>
                                 <li className={styles.li}>
-                                    Компактный водонепроницаемый корпус позволяет работать в сложных условиях
+                                    <InViewStyle
+                                        initialClass="leftToRight"
+                                        animationClass="visible"
+                                        triggerOnce
+                                    >
+                                        Компактный водонепроницаемый корпус позволяет работать в сложных условиях
+                                    </InViewStyle>
                                 </li>
                                 <li className={styles.li}>
-                                    Высокоточный 30-мм цифровой детектор,облегчает настройку и процедуру центровки
+                                    <InViewStyle
+                                        initialClass="leftToRight"
+                                        animationClass="visible"
+                                        triggerOnce
+                                    >
+                                        Высокоточный 30-мм цифровой детектор,облегчает настройку и процедуру центровки
+                                    </InViewStyle>
                                 </li>
                                 <li className={styles.li}>
-                                    Минимальная рабочая
-                                    температура — 20 °С
+                                    <InViewStyle
+                                        initialClass="leftToRight"
+                                        animationClass="visible"
+                                        triggerOnce
+                                    >
+                                        Минимальная рабочая
+                                        температура — 20 °С
+                                    </InViewStyle>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <Image className={styles.img} src={'/head.png'} width={560} height={715} alt='Система экспресс вибродиагностики' />
+                        <InViewStyle
+                            initialClass="rightToLeft"
+                            animationClass="visible"
+                            triggerOnce
+                        >
+                            <Image className={styles.img} src={'/head.png'} width={560} height={715} alt='Система экспресс вибродиагностики' />
+                        </InViewStyle>
                     </div>
                 </div>
             </div>

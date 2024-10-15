@@ -55,11 +55,18 @@
     }
 
     &:hover {
-        border-color: #009978;
+        background-color: #006C55;
+        color: #fff;
 
         .arrow {
-            transform: translateY(4px) scale(1.2) rotate(135deg) ;
+            path {
+                fill: #fff;
+            }
         }
+    }
+
+    &:active {
+        background-color: #00493A;
     }
 }
 

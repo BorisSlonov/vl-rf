@@ -21,7 +21,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 40px;
     padding-bottom: 180px;
 
@@ -81,7 +81,7 @@
 .li {
     position: relative;
     padding-left: 10px;
-    margin-left: 10px;
+    margin-left: -10px;
     font-weight: 300;
 
     &::before {
