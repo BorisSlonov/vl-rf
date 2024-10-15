@@ -1,0 +1,133 @@
+.section {
+  background: linear-gradient(113deg, #000 44.82%, #006C55 109.7%);
+}
+
+.body {
+    display: flex;
+
+    @media(max-width:767px) {
+        flex-direction: column;
+    }
+}
+
+.item {
+    flex-basis: 50%;
+}
+
+.item:first-child {
+    border-right: 2px solid rgba(255, 255, 255, 0.2);
+
+    @media(max-width:767px) {
+        border: none;
+    }
+}
+
+.item:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.h2 {
+    color: #fff;
+    position: relative;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    font-size: 43px;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: uppercase;
+
+    @media(max-width:1024px) {
+        font-size: 28px;
+    }
+
+    @media(max-width:767px) {
+        padding: 40px 0;
+    }
+
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 500%;
+        height: 2px;
+        background-color: rgba(255, 255, 255, 0.2);
+
+        @media(max-width:767px) {
+            left: -20px;
+            right: 0;
+        }
+    }
+}
+
+.titleText {
+    padding-top: 60px;
+    max-width: 450px;
+    padding-bottom: 120px;
+
+    @media(max-width:767px) {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+}
+
+.h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+
+    @media(max-width:1024px) {
+        font-size: 24px;
+    }
+
+    &:not(:first-child) {
+        margin-top: 20px;
+    }
+}
+
+.p {
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 2px;
+
+    @media(max-width:767px) {
+        font-size: 16px;
+    }
+}
+
+.img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.li {
+    position: relative;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-weight: 300;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+        left: 0;
+        top: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+}
