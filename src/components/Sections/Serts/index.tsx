@@ -52,16 +52,6 @@ const Serts = () => {
                         </p>
                     </div>
                 </InViewStyle>
-                <InViewStyle
-                    initialClass="bottomToTop"
-                    animationClass="visible"
-                    triggerOnce
-                >
-                    <a href="/documents.zip" download className={styles.btn}>
-                        Договор гранта
-                        <ArrowIcon className={styles.arrow} />
-                    </a>
-                </InViewStyle>
             </div>
         </section>
     )
