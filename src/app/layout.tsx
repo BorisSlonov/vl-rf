@@ -36,9 +36,9 @@ export default function RootLayout({
         }}
       >
         <div className="mainWrapper">
-{/*           <Header />
+          <Header />
           {children}
-          <Footer /> */}
+          <Footer /> 
           Ведутся технические работы
         </div>
       </body>
