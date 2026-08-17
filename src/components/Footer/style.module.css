@@ -79,6 +79,36 @@
     color: rgba(0, 153, 120, 1);
 }
 
+.legal {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(255, 255, 255, .25);
+    color: rgba(255, 255, 255, .7);
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.disclaimer {
+    margin-bottom: 14px;
+}
+
+.legalLinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 24px;
+}
+
+.legalLink {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    transition: color .3s;
+}
+
+.legalLink:hover {
+    color: rgba(0, 153, 120, 1);
+}
+
 @media(max-width:1023px) {
     .menu {
         flex-wrap: wrap;
@@ -104,6 +134,10 @@
     .h3 {
         margin-bottom: 16px;
     }
+
+    .legal {
+        margin-top: 40px;
+    }
 }
 
 @media(max-width:424px) {
@@ -120,5 +154,9 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .legalLinks {
+        flex-direction: column;
     }
 }

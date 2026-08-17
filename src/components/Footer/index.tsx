@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./style.module.css";
 import LogoIcon from "@/shared/ui/icons/LogoIcon";
 import clsx from "clsx";
-import Socials from "../Socials";
 import Link from "next/link";
 
 const Footer = () => {
@@ -65,6 +64,20 @@ const Footer = () => {
                   ))}
                 </ul>
               </div>
+            </div>
+            <div className={styles.legal}>
+              <p className={styles.disclaimer}>
+                Информация на сайте не является публичной офертой (ст. 437 ГК РФ). Цены указаны в
+                ознакомительных целях и могут быть изменены. Точную стоимость уточняйте у менеджера.
+              </p>
+              <nav className={styles.legalLinks} aria-label="Правовая информация">
+                <Link className={styles.legalLink} href="/privacy-policy">
+                  Политика конфиденциальности
+                </Link>
+                <Link className={styles.legalLink} href="/personal-data">
+                  Согласие на обработку персональных данных
+                </Link>
+              </nav>
             </div>
           </div>
         </div>

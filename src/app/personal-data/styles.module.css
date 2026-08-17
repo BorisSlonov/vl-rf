@@ -1,0 +1,151 @@
+.main {
+    padding: 100px 0;
+    display: block;
+    width: 100%;
+}
+
+.content {
+    margin-top: 45px;
+    padding: 40px 30px;
+    border-radius: 35px;
+    background: var(--light-grey-2, #CCC);
+    color: #1E1E1E;
+}
+
+.h1 {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 40px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.h2 {
+    font-family: 'Jost', 'Jost Fallback';
+    font-size: 24px;
+    color: var(--primary);
+    font-weight: 600;
+    margin-top: 50px;
+    max-width: 1180px;
+}
+
+.h2_mt0 {
+    margin-top: 0;
+}
+
+.main h3 {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.main ul,
+.main p {
+    max-width: 1180px;
+}
+
+.main ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.main ul:not(:first-child) {
+    margin-top: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.main ul li {
+    padding-left: 12px;
+    position: relative;
+}
+
+.listDots li::before {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #A3A2A2;
+}
+
+.main p:first-child {
+    margin-top: 30px;
+}
+
+.main p:not(:first-child) {
+    margin-top: 20px;
+}
+
+.main a {
+    color: var(--secondary);
+    text-decoration: underline;
+    transition: all .3s ease;
+}
+
+.main a:hover {
+    opacity: .75;
+}
+
+.main strong {
+    font-weight: 600;
+}
+
+@media(max-width:1023px) {
+    .h1 {
+        font-size: 24px;
+    }
+
+    .content {
+        margin-top: 60px;
+        padding: 20px 15px;
+    }
+
+    .h2 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .h2_mt0 {
+        margin-top: 0;
+    }
+
+    .main {
+        padding: 50px 0;
+    }
+
+    .header {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:767px) {
+    .h1 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .h2 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .main h3 {
+        font-size: 16px;
+    }
+
+    .main p:first-child {
+        margin-top: 16px;
+    }
+
+    .main p:not(:first-child) {
+        margin-top: 15px;
+    }
+}
+
