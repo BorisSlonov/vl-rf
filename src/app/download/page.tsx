@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const downloads = [
   {
     id: "alignment-android",
-    name: "VIBRO-LASER Alignment",
+    name: "ВИБРО-ЛАЗЕР Центровка",
     platform: "Android",
     version: "Версия 2.7.20",
     description:
@@ -22,7 +22,7 @@ const downloads = [
   },
   {
     id: "vibro-laser-windows",
-    name: "VIBRO-LASER",
+    name: "ВИБРО-ЛАЗЕР Центровка",
     platform: "Windows",
     version: "Версия 2.7",
     description:

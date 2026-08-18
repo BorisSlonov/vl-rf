@@ -48,7 +48,7 @@ const NewApp = () => {
               triggerOnce
             >
               <div className={styles.links}>
-                <a
+                {/* <a
                   href="https://play.google.com/store/apps/details?id=com.VibroLaser.Base"
                   target="_blank"
                   className={styles.a}
@@ -60,7 +60,7 @@ const NewApp = () => {
                     height={25}
                   />
                   для Android
-                </a>
+                </a> */}
               </div>
             </InViewStyle>
           </div>
