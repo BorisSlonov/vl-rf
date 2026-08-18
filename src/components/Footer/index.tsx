@@ -20,29 +20,14 @@ const Footer = () => {
           <div className={clsx(styles.item, styles.item2)}>
             <ul className={styles.menu}>
               <li className={styles.menuLi}>
-                <a className={styles.a} href="#laser-alignment">
-                  Выверка центровки
-                </a>
+                <Link className={styles.a} href="/скачать">
+                  Скачать
+                </Link>
               </li>
               <li className={styles.menuLi}>
-                <a className={styles.a} href="#geometry-alignment">
-                  Выверка геометрии
-                </a>
-              </li>
-              <li className={styles.menuLi}>
-                <a className={styles.a} href="#vr">
-                  VR
-                </a>
-              </li>
-              <li className={styles.menuLi}>
-                <a className={styles.a} href="#vibration-diagnostics">
-                  Вибродиагностика
-                </a>
-              </li>
-              <li className={styles.menuLi}>
-                <a className={styles.a} href="#foundation-support">
-                  Поддержка фонда
-                </a>
+                <Link className={styles.a} href="/инфо">
+                  Инфо
+                </Link>
               </li>
             </ul>
             <div className={styles.contactsWrapper}>

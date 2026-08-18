@@ -1,22 +1,18 @@
 export const links = [
   {
-    linkText: "Выверка центровки",
-    link: "#laser-alignment",
+    linkText: "Скачать",
+    link: "/скачать",
   },
   {
-    linkText: "Выверка геометрии",
-    link: "#geometry-alignment",
+    linkText: "Инфо",
+    link: "/инфо",
   },
   {
-    linkText: "VR",
-    link: "#vr",
+    linkText: "Политика конфиденциальности",
+    link: "/privacy-policy",
   },
   {
-    linkText: "Вибродиагностика",
-    link: "#vibration-diagnostics",
-  },
-  {
-    linkText: "Поддержка фонда",
-    link: "#foundation-support",
+    linkText: "Обработка персональных данных",
+    link: "/personal-data",
   },
 ];
