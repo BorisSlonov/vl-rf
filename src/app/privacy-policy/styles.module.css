@@ -8,7 +8,6 @@
     margin-top: 45px;
     padding: 40px 30px;
     border-radius: 35px;
-    background: var(--light-grey-2, #CCC);
     color: #1E1E1E;
 }
 
@@ -228,5 +227,4 @@
 
 
 }
-
 

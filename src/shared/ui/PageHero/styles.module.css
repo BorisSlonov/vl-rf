@@ -1,0 +1,45 @@
+.hero {
+  max-width: 900px;
+}
+
+.eyebrow {
+  margin-bottom: 20px;
+  color: var(--color-primary);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.title {
+  color: #181818;
+  font-size: clamp(44px, 7vw, 88px);
+  font-weight: 500;
+  line-height: .98;
+  letter-spacing: -.04em;
+  text-transform: uppercase;
+}
+
+.lead {
+  max-width: 850px;
+  margin-top: 28px;
+  color: #555;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .eyebrow {
+    margin-bottom: 16px;
+  }
+
+  .title {
+    font-size: 42px;
+  }
+
+  .lead {
+    margin-top: 20px;
+    font-size: 17px;
+  }
+}

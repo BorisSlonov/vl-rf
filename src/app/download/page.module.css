@@ -10,35 +10,7 @@
 }
 
 .heading {
-  max-width: 720px;
   margin-bottom: 48px;
-}
-
-.eyebrow {
-  margin-bottom: 12px;
-  color: var(--color-primary);
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-}
-
-.title {
-  color: #181818;
-  font-size: clamp(48px, 7vw, 88px);
-  font-weight: 700;
-  line-height: 0.95;
-  letter-spacing: -0.04em;
-  text-transform: uppercase;
-}
-
-.intro {
-  max-width: 620px;
-  margin-top: 24px;
-  color: #5b615f;
-  font-size: 19px;
-  font-weight: 300;
-  line-height: 1.45;
 }
 
 .grid {
@@ -206,15 +178,6 @@
 
   .heading {
     margin-bottom: 32px;
-  }
-
-  .title {
-    font-size: 48px;
-  }
-
-  .intro {
-    margin-top: 18px;
-    font-size: 17px;
   }
 
   .card {

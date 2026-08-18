@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import PageHero from "@/shared/ui/PageHero";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -45,16 +46,18 @@ export default function DownloadPage() {
     <main className={styles.main}>
       <section className={styles.section} aria-labelledby="downloads-title">
         <div className="container">
-          <div className={styles.heading}>
-            <p className={styles.eyebrow}>Программное обеспечение</p>
-            <h1 id="downloads-title" className={styles.title}>
-              Загрузки
-            </h1>
-            <p className={styles.intro}>
-              Выберите версию приложения для вашего устройства. Оба дистрибутива
-              упакованы в ZIP-архивы.
-            </p>
-          </div>
+          <PageHero
+            className={styles.heading}
+            eyebrow="Программное обеспечение"
+            title="Загрузки"
+            titleId="downloads-title"
+            lead={
+              <>
+                Выберите версию приложения для вашего устройства. Оба
+                дистрибутива упакованы в ZIP-архивы.
+              </>
+            }
+          />
 
           <div className={styles.grid}>
             {downloads.map((item) => (
