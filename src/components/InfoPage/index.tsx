@@ -71,7 +71,13 @@ function DownloadIcon() {
       height="24"
       fill="none"
     >
-      <path d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+      <path
+        d="M12 3v11m0 0 4-4m-4 4-4-4M5 17v3h14v-3"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }
@@ -86,9 +92,9 @@ export default function InfoPage() {
             title="ВИБРО-ЛАЗЕР ЦЕНТРОВКА"
             lead={
               <>
-                Прикладное программное обеспечение для лазерной центровки
-                валов роторных машин: насосов, компрессоров, вентиляторов,
-                редукторов, электродвигателей и турбин.
+                Прикладное программное обеспечение для лазерной центровки валов
+                роторных машин: насосов, компрессоров, вентиляторов, редукторов,
+                электродвигателей и турбин.
               </>
             }
           >
@@ -100,8 +106,8 @@ export default function InfoPage() {
               вала, так и при ограниченном доступе к нему.
             </p>
             <p className={styles.intro}>
-              Все вычисления выполняются на устройстве пользователя.
-              Подключение к интернету и внешним серверам не требуется.
+              Все вычисления выполняются на устройстве пользователя. Подключение
+              к интернету и внешним серверам не требуется.
             </p>
           </PageHero>
         </div>
@@ -119,9 +125,8 @@ export default function InfoPage() {
             ))}
           </div>
           <p className={styles.platforms}>
-            <strong>Поддерживаемые платформы:</strong> Windows x64 и Android
-            9.0 (API 28) и выше. Для работы необходим адаптер Bluetooth Low
-            Energy.
+            <strong>Поддерживаемые платформы:</strong> Windows x64 и Android 9.0
+            (API 28) и выше. Для работы необходим адаптер Bluetooth Low Energy.
           </p>
         </div>
       </section>
@@ -130,8 +135,8 @@ export default function InfoPage() {
         <div className="container">
           <h2 className={styles.sectionTitle}>Документация</h2>
           <p className={styles.sectionDescription}>
-            Руководства и материалы по программному обеспечению
-            «ВИБРО-ЛАЗЕР ЦЕНТРОВКА».
+            Руководства и материалы по программному обеспечению «ВИБРО-ЛАЗЕР
+            ЦЕНТРОВКА».
           </p>
           <div className={styles.documentsGrid}>
             {documents.map((document) => (
@@ -170,20 +175,35 @@ export default function InfoPage() {
               </p>
               <p>
                 Для получения прав направьте запрос на почту{" "}
-                <a href="mailto:info@vibro-laser.com">
-                  info@vibro-laser.com
-                </a>
-                .
+                <a href="mailto:info@vibro-laser.com">info@vibro-laser.com</a>.
               </p>
             </div>
             <div>
               <h2 className={styles.sectionTitle}>Правообладатель</h2>
               <dl className={styles.companyDetails}>
-                <div><dt>Компания</dt><dd>ООО «КСК-СИСТЕМС»</dd></div>
-                <div><dt>ИНН</dt><dd>7841441038</dd></div>
-                <div><dt>ОГРН</dt><dd>1117847079261</dd></div>
-                <div><dt>ОКВЭД</dt><dd>62.01 — разработка программного обеспечения</dd></div>
-                <div><dt>Адрес</dt><dd>191123, г. Санкт-Петербург, Захарьевская ул., дом 10, литера В</dd></div>
+                <div>
+                  <dt>Компания</dt>
+                  <dd>ООО «КСК-СИСТЕМС»</dd>
+                </div>
+                <div>
+                  <dt>ИНН</dt>
+                  <dd>7841441038</dd>
+                </div>
+                <div>
+                  <dt>ОГРН</dt>
+                  <dd>1117847079261</dd>
+                </div>
+                <div>
+                  <dt>ОКВЭД</dt>
+                  <dd>62.01 — разработка программного обеспечения</dd>
+                </div>
+                <div>
+                  <dt>Адрес</dt>
+                  <dd>
+                    199226, Россия, г. Санкт-Петербург, ул. Нахимова, д. 20,
+                    Литера А, кв. 359
+                  </dd>
+                </div>
               </dl>
             </div>
           </div>

@@ -34,7 +34,8 @@ const Footer = () => {
               <div className={styles.contacts}>
                 <h3 className={styles.h3}>Адрес</h3>
                 <p className={styles.address}>
-                  191123, г. Санкт-Петербург, Захарьевская ул., дом 10 литера В
+                 199226, Россия, г. Санкт-Петербург, ул. Нахимова, д. 20,
+                    Литера А, кв. 359
                 </p>
               </div>
               <div className={styles.contacts}>

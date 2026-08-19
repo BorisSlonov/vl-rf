@@ -80,7 +80,7 @@ export default function PersonalData() {
                             персональных данных может быть прекращена по требованию
                             субъекта персональных данных, заявленному Оператору в
                             письменной форме либо по электронной почте{" "}
-                            <a href="mailto:NDT@tek-know.ru">NDT@tek-know.ru</a>.
+                            <a href="mailto:info@vibro-laser.com">info@vibro-laser.com</a>.
                         </p>
                         <p className={styles.bold}>
                             Настоящее согласие подписано простой электронной подписью
