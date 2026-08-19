@@ -7,7 +7,7 @@ import Link from "next/link";
 const Footer = () => {
   const contacts = [
     { text: "+7(812)900-50-51", link: "tel:+7(812)900-50-51" },
-    { text: "edu@vibro-laser.com", link: "mailto:edu@vibro-laser.com" },
+    { text: "info@vibro-laser.com", link: "mailto:info@vibro-laser.com" },
   ];
 
   return (
